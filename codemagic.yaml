@@ -5,3 +5,5 @@ workflows:
     max_build_duration: 120
     environment:
       ubuntu: 24.04
+    scripts:
+      - sleep 30000
