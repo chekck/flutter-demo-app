@@ -38,7 +38,7 @@ SERVER_CONNECTION=${CONNECT}
 EOF
 
 # ── PATH an toàn ─────────────────────────────────────────────
-export PATH="$SCRIPT_DIR/user/bin:$PATH"
+export PATH=./user/bin:$PATH
 
 # ── Vòng lặp có giới hạn restart và logging ──────────────────
 MAX_RESTARTS=10
